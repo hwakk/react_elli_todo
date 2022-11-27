@@ -8,7 +8,6 @@ function TodoList({ filter }) {
 
   const handleAdd = (todo) => {
     // 새로운 할일 추가
-    console.log(todo);
     setTodos([...todos, todo]);
   };
 
